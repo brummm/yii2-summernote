@@ -1,0 +1,30 @@
+{
+    "name": "brummm/yii2-summernote",
+    "description": "A easily installable summernote bundle without bootstrap css that would break your non bootstrap layouts",
+    "keywords": [],
+    "homepage": "https://github.com/brummm/yii2-summernote",
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": ">=2.0.6",
+        "yiisoft/yii2-bootstrap": "*",
+        "bower-asset/summernote": "^0.8.1"
+    },
+    "config": {
+        "process-timeout": 1800
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    },
+    "autoload": {
+        "psr-0": {
+            "YiiSummernote": "assets/"
+        }
+    }
+}
+
