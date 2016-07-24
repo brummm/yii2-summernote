@@ -1,16 +1,8 @@
-# yii2-summernote
+# yii2summernote
 
-A Yii2 extension/vendor
+## A Yii2 extension/vendor
 
-A easily installable summernote bundle without bootstrap css that should break your layouts.
+A easily installable summernote bundle without bootstrap css that would
+break your layouts that are not using such library.
 
-
-## Installation Proccess
-run:
-	
-```
-#!sh
-
-composer global require "fxp/composer-asset-plugin:~1.1.1"
-composer install
-```
+I just prefer Yahoo's PureCSS (Twiter, don't be mad at me) =]
