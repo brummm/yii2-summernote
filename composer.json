@@ -1,8 +1,8 @@
 {
-    "name": "brummm/yii2-summernote",
+    "name": "brummm/yii2summernote",
     "description": "A easily installable summernote bundle without bootstrap css that would break your non bootstrap layouts",
     "keywords": [],
-    "homepage": "https://github.com/brummm/yii2-summernote",
+    "homepage": "https://github.com/brummm/yii2summernote",
     "type": "yii2-extension",
     "license": "BSD-3-Clause",
     "minimum-stability": "stable",
