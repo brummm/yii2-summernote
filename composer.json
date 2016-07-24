@@ -22,8 +22,10 @@
         }
     },
     "autoload": {
-        "psr-0": {
-            "YiiSummernote": "assets/"
+        "autoload": {
+            "psr-4": {
+                "brummm\\yii2summernote\\": ""
+            }
         }
     }
 }
