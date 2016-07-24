@@ -22,10 +22,8 @@
         }
     },
     "autoload": {
-        "autoload": {
-            "psr-4": {
-                "brummm\\yii2summernote\\": ""
-            }
+        "psr-4": {
+            "brummm\\yii2summernote\\": ""
         }
     }
 }
