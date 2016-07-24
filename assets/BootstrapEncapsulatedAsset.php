@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2summernote\assets;
+namespace brummm\yii2summernote\assets;
 
 use yii\web\AssetBundle;
 

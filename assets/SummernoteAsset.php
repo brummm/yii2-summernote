@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2summernote\assets;
+namespace brummm\yii2summernote\assets;
 
 use yii\web\AssetBundle;
 
@@ -18,6 +18,6 @@ class SummernoteAsset extends AssetBundle
     ];
     public $depends = [
         'yii\web\YiiAsset',
-        'yii2summernote\assets\BootstrapEncapsulatedAsset',
+        'brummm\yii2summernote\assets\BootstrapEncapsulatedAsset',
     ];
 }
