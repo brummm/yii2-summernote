@@ -10,29 +10,11 @@
         "php": ">=5.4.0",
         "yiisoft/yii2": ">=2.0.6",
         "yiisoft/yii2-bootstrap": "*",
-        "bower-asset/summernote": "^0.8.1",
-        "studiojunkyard/summernote-cleaner": "dev-master"
+        "bower-asset/summernote": "^0.8.1"
     },
     "config": {
         "process-timeout": 1800
     },
-    "repositories": [
-        {
-            "type": "package",
-            "package": {
-                "name": "studiojunkyard/summernote-cleaner",
-                "version": "master",
-                "dist": {
-                    "type": "zip",
-                    "url": "https://github.com/StudioJunkyard/summernote-cleaner/archive/master.zip",
-                    "reference": "master"
-                },
-                "autoload": {
-                    "classmap": ["."]
-                }
-            }
-        }
-    ],
     "extra": {
         "asset-installer-paths": {
             "npm-asset-library": "vendor/npm",
